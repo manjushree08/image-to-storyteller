@@ -100,6 +100,7 @@ def generate_story_to_audio(story, folder):
     story, voice='af_heart', # <= change voice here
     speed=1, split_pattern=r'\n+'
     )
+    
 
     for i, (gs, ps, audio) in enumerate(generator):
         print(i)  # i => index
