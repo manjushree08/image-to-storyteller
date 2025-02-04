@@ -1,0 +1,11 @@
+flask
+requests
+gTTS
+boto3
+transformers
+kokoro
+IPython
+soundfile
+python-dotenv
+py-espeak-ng
+aws-wsgi
